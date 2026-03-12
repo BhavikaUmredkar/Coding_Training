@@ -161,6 +161,29 @@
 # print(x==z)
 # print(x!=z)
 
-name = "Bhavika"
+# name = 'bhavika'
+# for i in name:
+#     print(i) #i=1/2/3/4/5/6/7
+
+name = 'bhavika'
+data = ['a','e','i','o','u']
+vowel =0
+con =0
 for i in name:
-    print(i)
+       if i in data:
+              vowel +=1
+              
+       else:
+              con +=1
+print('vowel count:', vowel)
+print('consonent count:', con)
+
+
+s = 'programming'
+duplicates=[]
+for i in s:
+       if name.count(s) > 1 and s not in duplicates:
+        duplicates.append(ch)
+
+print("Duplicate characters:", duplicates)
+    
