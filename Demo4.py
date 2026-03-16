@@ -41,17 +41,18 @@
 
 # 2. Keyword argument
 
-def personalInfo(fname, lname):
-    print("First Nmae=", fname)
-    print("Lat Name:", lname)
-fname = "Bhavika"
-lname = "Umredkar"
-personalInfo(fname, lname)
+# def personalInfo(fname, lname):
+#     print("First Nmae=", fname)
+#     print("Lat Name:", lname)
+# fname = "Bhavika"
+# lname = "Umredkar"
+# personalInfo(fname, lname)
 
 
 # 3. Default argument
-def cityName(city):
+
+def cityName(city="Nagpur"):
     print(city)
-cityName("Nagpur")
 cityName("Mumbai")
 cityName("Pune")
+cityName()
