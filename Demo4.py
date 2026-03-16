@@ -51,8 +51,16 @@
 
 # 3. Default argument
 
-def cityName(city="Nagpur"):
-    print(city)
-cityName("Mumbai")
-cityName("Pune")
-cityName()
+# def cityName(city="Nagpur"):
+#     print(city)
+# cityName("Mumbai")
+# cityName("Pune")
+# cityName()
+
+
+# 4. Variable length argument/ variable number of argument 
+
+def studentNames(*name):
+    print(name)
+studentNames("Bhavika","Bhumika","Rajeshri","Jims")
+
