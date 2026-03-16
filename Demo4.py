@@ -60,7 +60,15 @@
 
 # 4. Variable length argument/ variable number of argument 
 
-def studentNames(*name):
-    print(name)
-studentNames("Bhavika","Bhumika","Rajeshri","Jims")
+# def studentNames(*name):
+#     print(name)
+# studentNames("Bhavika","Bhumika","Rajeshri","Jims")
 
+
+mylist = [5,2,9,7,5,6]
+#search the element 7
+def searchElement(target):
+    for i in range(len(mylist)): #mylist = 6
+        if target == mylist[i]:
+            print('Element foud at index number:',i)
+searchElement(7)   
