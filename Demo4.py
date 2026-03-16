@@ -65,10 +65,24 @@
 # studentNames("Bhavika","Bhumika","Rajeshri","Jims")
 
 
-mylist = [5,2,9,7,5,6]
-#search the element 7
-def searchElement(target):
-    for i in range(len(mylist)): #mylist = 6
-        if target == mylist[i]:
-            print('Element foud at index number:',i)
-searchElement(7)   
+# mylist = [5,2,9,7,5,6]
+# #search the element 7
+# def searchElement(target):
+#     for i in range(len(mylist)): #mylist = 6
+#         if target == mylist[i]:
+#             print('Element found at index number:',i)
+# searchElement(7)   
+
+
+# def searchElement(target):
+#     mylist = [6, 10, 15, 20]  # define your list here
+#     for i in range(len(mylist)):
+#         if target == mylist[i]:
+#             return i
+#     return -1
+# result = searchElement(10)
+# if result != -1:
+#     print('Element found at index number:', result)
+# else:
+#     print('Element not found')
+
