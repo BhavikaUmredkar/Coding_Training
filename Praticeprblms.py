@@ -105,13 +105,29 @@
 #1.rstring()===> To remove space at right hand side
 #2.lstring()===> To remove spaces at left hand side
 #3.srtip()===> To remove spaces both sides
-city=input("Enter your city Name:")
-scity=city.strip()
-if scity=="Hyderabad":
-    print("Hello Hyderabadi..Adab")
-elif scity=='Chennai':
-    print("Hello Madrasi..Vanakkam")
-elif scity=="Banglore":
-    print("Hello Kannadiga..Subhodaya")
-else:
-    print("Your entered city is invalid")
+# city=input("Enter your city Name:")
+# scity=city.strip()
+# if scity=="Hyderabad":
+#     print("Hello Hyderabadi..Adab")
+# elif scity=='Chennai':
+#     print("Hello Madrasi..Vanakkam")
+# elif scity=="Banglore":
+#     print("Hello Kannadiga..Subhodaya")
+# else:
+#     print("Your entered city is invalid")
+
+
+# s=[i*1 for i in range(1,11)]
+# print(s)
+
+# # val=[2**i for i in range(1,6)]
+# # print(val)
+
+# val2=[i for i in s if i%2==0]
+# print(val2)
+
+squares={x:x*x for x in range(1,6)}
+print(squares)
+
+doubles={x:x*x for x in range(1,6)}
+print(doubles)
